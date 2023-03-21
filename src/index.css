@@ -27,4 +27,6 @@ body {
   height: 100%;
   background: #7597E0;
   font-family: 'Rubik', sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
 }
