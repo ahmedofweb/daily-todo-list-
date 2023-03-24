@@ -1,0 +1,32 @@
+/* .modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #2a27e8;
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    transform: translate(50%  50%);
+} */
+.modal {
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background: #7597E0;
+    padding: 50px 50px 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}

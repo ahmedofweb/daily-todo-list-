@@ -20,10 +20,13 @@ function Form({ setData }) {
     }
     return(
         <form className="form" onSubmit={handleSubmit}>
-          <input className="input" type="text" placeholder="Add new list item"    autoFocus required autoComplete="off" onChange={(e) => {
-            setTodo(e.target.value.trim())
+          <input className="input" type="text" placeholder="Add new list item..."    autoFocus required autoComplete="off" onChange={(e) => {
+            if(e.target.value.trim().length){
+                setTodo(e.target.value)
+            }
           }}  
           value={todo}/>
+
           <button className="btn">Add</button>
         </form>
     )
